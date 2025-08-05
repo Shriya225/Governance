@@ -1,0 +1,15 @@
+[package]
+name = "testproject"
+version = "1.0.0"
+authors = []
+
+[addresses]
+shri_addr="379dca1561e8f362758ff7fcf42d37def355ec5d5ad80516ef4fb353ec553d8f"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
